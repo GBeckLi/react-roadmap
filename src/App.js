@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.scss';
+import { MyComponent } from './components/myComponent/myComponent';
 
-class App extends Component {
+class App extends Component { 
   render() {
     return (
       <div className="App">
@@ -11,6 +12,7 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
+          < MyComponent name="beck.lee" />
           <a
             className="App-link"
             href="https://reactjs.org"
