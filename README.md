@@ -39,7 +39,7 @@ $ yarn add eslint eslint eslint-plugin-react -D
 
 
 
-新建并编辑.eslintrc文件如下：
+(2): 新建并编辑.eslintrc文件如下：
 
 ```json
 {
@@ -67,6 +67,16 @@ $ yarn add eslint eslint eslint-plugin-react -D
 }
 
 ```
+
+(3): 新建并编辑`.eslintignore`
+
+将项目中不需要被eslint监听的目录或者文件的地址写入，如：
+
+~~~json
+node_modules
+config
+scripts
+~~~
 
 
 
@@ -109,14 +119,6 @@ $ yarn create react-app my-app --scripts-version=react-scripts-ts
 ```
 
 详情可以参考[官方文档](<https://github.com/Microsoft/TypeScript-React-Starter#typescript-react-starter>)
-
-
-
-
-
-
-
-
 
 
 
