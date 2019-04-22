@@ -30,6 +30,7 @@
     "jshint": "^2.10.2",
     "less": "^3.9.0",
     "node-sass": "^4.11.0",
+    "prop-types": "^15.7.2",
     "redux-devtools": "^3.5.0"
   }
 }
