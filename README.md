@@ -2,11 +2,12 @@
 react 学习记录
 
 # Change Log
-## [unreleased]
-## [1.0.0] - 2019-04-22
-### Added
+#### [unreleased]
+#### [1.0.0] - 2019-04-22
+##### Added
 - 添加redux，初步了解redux的用法和思想。
 
+# 操作指南
 
 ### 一. 创建项目
 
