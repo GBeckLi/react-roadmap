@@ -2,8 +2,24 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.scss';
 import { MyComponent } from './components/myComponent/myComponent';
+import { List } from './components/list/list';
 
-class App extends Component { 
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      nameA: 'beck.lee',
+      nameB: ''
+    };
+    this.onInput = this.onInput.bind(this);
+  }
+
+  onInput(e, key) {
+    this.setState({
+      [key]: e.target.value
+    });
+  }
+
   render() {
     return (
       <div className="App">
@@ -12,7 +28,8 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          < MyComponent name="beck.lee" />
+          < MyComponent name={this.state.nameA} input={(e) => { this.onInput(e, 'nameA') }} />
+          < List />
           <a
             className="App-link"
             href="https://reactjs.org"

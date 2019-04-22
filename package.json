@@ -5,7 +5,9 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-redux": "^7.0.2",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,6 +29,7 @@
     "eslint-plugin-react": "^7.12.4",
     "jshint": "^2.10.2",
     "less": "^3.9.0",
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.11.0",
+    "redux-devtools": "^3.5.0"
   }
 }
