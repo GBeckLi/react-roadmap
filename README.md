@@ -1,12 +1,15 @@
 # react-roadmap
 react 学习记录
 
-### Change Log
+# Change Log
+## [unreleased]
+## [1.0.0] - 2019-04-22
+### Added
+- 添加redux，初步了解redux的用法和思想。
 
 
 ### 一. 创建项目
-添加redux，初步了解redux的用法和思想。
-2019/4/22
+
 #### 1： 初始化项目
 
 此处是采用react的脚手架进行创建项目，之后会介绍怎么从零开始
