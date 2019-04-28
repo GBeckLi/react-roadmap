@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.scss';
-import { TodoList } from './components/todoList';
 
 class App extends Component {
   constructor() {
@@ -27,7 +26,6 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <TodoList />
           <a
             className="App-link"
             href="https://reactjs.org"
